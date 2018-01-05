@@ -606,6 +606,15 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .asbestos > span{
   background-color: #7f8c8d;
 }
+.s1 > span{
+  background-color: #b4bfc1;
+}
+.s2 > span{
+  background-color: #635757;
+}
+.s3 > span{
+  background-color: #562020;
+}
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none;
   background-image: none;
@@ -745,7 +754,7 @@ Change widths as necessary
     text-align: center;
     padding: 40px 20px;
     border: 1px solid #EEE;
-    margin: 15px 0px;
+    margin: 15px 5px;
 }
 .project-head {
   position: center;
@@ -830,9 +839,12 @@ Change widths as necessary
 }
 
 .resumebtn {
-  margin:  margin: 25px ;
+  margin:25px ;
+}
+.btnproject {
+  margin: 25px;
 }
 
 .btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
-    background-color: #000000 !important;
+    background-color: #575d63 !important ;
     margin-left: 25px;
