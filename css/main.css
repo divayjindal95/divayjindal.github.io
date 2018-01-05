@@ -828,3 +828,11 @@ Change widths as necessary
 .text-center .title:after {
     margin: 20px auto 0px;
 }
+
+.resumebtn {
+  margin:  margin: 25px ;
+}
+
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
+    background-color: #000000 !important;
+    margin-left: 25px;
