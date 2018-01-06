@@ -864,3 +864,73 @@ Change widths as necessary
 .btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
     background-color: #575d63 !important ;
     margin-left: 25px;
+}
+
+.btn-primary {
+  background-color: #2d1313 !important ;
+}
+
+
+/*------------------------------------*\
+	Contact
+\*------------------------------------*/
+
+.contact {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.contact i {
+    font-size: 36px;
+    color: #6195FF;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-form .input {
+    margin-bottom: 20px;
+}
+
+
+.contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
+    width: calc(50% - 10px);
+}
+
+.contact-form .input:nth-child(2) {
+    margin-left: 15px;
+}
+
+/* --  Input  -- */
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea {
+    height: 40px;
+    width: 100%;
+    border: none;
+	  background: #e5e5e5;
+    border-left: 2px solid #EEE;
+    border-right: 2px solid #EEE;
+    border-top: 2px solid #EEE;
+    border-bottom: 2px solid #EEE;
+    color: #354052;
+    padding: 0px 10px;
+    opacity: 0.5;
+    -webkit-transition: 0.2s border-color, 0.2s opacity;
+    transition: 0.2s border-color, 0.2s opacity;
+    border-color: #b5b5b5;
+
+}
+
+textarea {
+    padding: 10px 10px;
+    min-height: 80px;
+    resize: vertical;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="url"]:focus, input[type="tel"]:focus, textarea:focus {
+    border-color: #3a0202;
+    opacity: 1;
+}
