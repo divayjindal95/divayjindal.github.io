@@ -607,10 +607,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   background-color: #7f8c8d;
 }
 .s1 > span{
-  background-color: #b4bfc1;
+  background-color: #a6b0b2;
 }
 .s2 > span{
-  background-color: #635757;
+  background-color: #918585;
 }
 .s3 > span{
   background-color: #562020;
@@ -745,19 +745,28 @@ Change widths as necessary
 
 /* my classes */
 .h2color {
-  color:#FFFFFF
+  color:#FFFFFF;
 }
 
 
-.g1box {
+.boxproject {
     position: relative;
-    text-align: center;
     padding: 40px 20px;
     border: 1px solid #EEE;
     margin: 15px 5px;
 }
-.project-head {
+.headproject {
   position: center;
+  text-align: center;
+}
+.contentproject {
+  text-align: justify;
+  display: -webkit-flex; /* Safari */
+  -webkit-justify-content: space-around; /* Safari 6.1+ */
+  display: flex;
+  justify-content: space-around;
+}
+.linkproject {
   text-align: center;
 }
 
@@ -841,6 +850,13 @@ Change widths as necessary
 .resumebtn {
   margin:25px ;
 }
+
+.h2resume{
+  color: #381313;
+  font-weight : bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .btnproject {
   margin: 25px;
 }
