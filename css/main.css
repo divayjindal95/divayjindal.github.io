@@ -862,12 +862,12 @@ Change widths as necessary
 }
 
 .btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
-    background-color: #575d63 !important ;
-    margin-left: 25px;
+    background-color: #0c0000 !important ;
+    margin-left: 5px;
 }
 
 .btn-primary {
-  background-color: #2d1313 !important ;
+  background-color: #110000 !important ;
 }
 
 
